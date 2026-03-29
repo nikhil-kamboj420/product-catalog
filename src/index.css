@@ -6,21 +6,28 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
   }
-}
-:root {
-  font-family: Roboto, sans-serif;
-  font-size: 62.5%;
+
+  :root {
+    font-family: Roboto, sans-serif;
+    font-size: 62.5%;
+  }
+
+  @media (max-width: 624px) {
+    :root {
+      font-size: 100%;
+    }
+  }
 }
 
-.bold{
-  font-weight : 500;
+.bold {
+  font-weight: 500;
 }
 
-header{
-  nav{
-    ul>li>a:hover{
-      padding : 1rem 1.6rem;
-      background-color: #e92f2f ;
+header {
+  nav {
+    ul > li > a:hover {
+      padding: 1rem 1.6rem;
+      background-color: #e92f2f;
     }
   }
 }

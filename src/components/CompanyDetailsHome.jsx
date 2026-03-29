@@ -53,42 +53,47 @@ export const CompanyDetailsHome = () => {
   ];
 
   return (
-    <section className="bg-[#f3f3f3]  px-26 flex   flex-col items-center">
-      <div className=" rounded-4xl p-10 md:p-14">
-        <div className="max-w-3xl text-center">
-          <h2 className="text-[2.5rem]  text-[#333] font-bold ">
+    <section className="bg-[#f3f3f3] px-4 py-10 md:px-26 md:flex md:flex-col md:items-center">
+      <div className="mx-auto w-full max-w-[95vw] rounded-4xl bg-white p-6 shadow-sm md:max-w-3xl md:p-14">
+        <div className="text-center">
+          <h2 className="text-2xl font-bold text-[#333] md:text-[2.5rem]">
             {company.tagline}
           </h2>
         </div>
       </div>
 
-      <div className="grid  sm:grid-cols-2 xl:grid-cols-3 max-w-[88vw]">
+      <div className="grid gap-4 pt-6 md:grid-cols-3 md:gap-6 md:max-w-[88vw]">
         {details.map((item) => (
           <div
             key={item.title}
-            className="flex items-center gap-5 rounded-4xl p-6"
+            className="grid grid-cols-[56px_1fr] items-center gap-4 rounded-4xl bg-white p-4 shadow-sm md:flex md:items-center md:gap-5 md:p-6"
           >
-            <div className="flex h-36 w-36 items-center justify-center rounded-full bg-[#f9f9f9] border border-[#e5e5e7]">
+            <div className="flex h-14 w-14 items-center justify-center rounded-full bg-[#f9f9f9] border border-[#e5e5e7] p-3 md:h-36 md:w-36">
               <img
                 src={item.icon}
                 alt={item.title}
-                className="h-23 w-23 object-contain"
+                className="h-full w-full object-contain"
               />
             </div>
             <div>
-              <p className="text-3xl font-bold  text-[#333]">{item.title}</p>
-              <p className="mt-2 text-xl  text-[#333]">{item.value}</p>
+              <p className="text-sm font-semibold text-[#333] md:text-3xl">
+                {item.title}
+              </p>
+              <p className="mt-1 text-base text-[#333] md:mt-2 md:text-xl">
+                {item.value}
+              </p>
             </div>
           </div>
         ))}
       </div>
-      <div>
-        <p className="text-2xl text-[#333] mt-10">{company.description[0]}</p>
-        <p className="text-2xl text-[#333] mt-10">
+
+      <div className="mx-auto mt-8 w-full max-w-[95vw] md:max-w-[88vw]">
+        <p className="text-sm leading-7 text-[#333] md:text-2xl">
+          {company.description[0]}
+        </p>
+        <p className="mt-4 text-sm leading-7 text-[#333] md:mt-10 md:text-2xl">
           {company.description[1]}{" "}
-          <span className="text-[#00abed] text-3xl cursor-pointer">
-            Read more...
-          </span>
+          <span className="text-[#00abed] md:text-3xl">Read more...</span>
         </p>
       </div>
     </section>
