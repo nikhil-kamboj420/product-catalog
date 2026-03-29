@@ -1,5 +1,6 @@
 import { useState } from "react";
 import products from "../products.json";
+import heroBg from "../assets/heroBg.png";
 
 const Hero = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -19,7 +20,10 @@ const Hero = () => {
   const { name, url } = products[currentIndex] || {};
 
   return (
-    <main className="max-w-screen min-h-[70vh] bg-[url('heroBg.png')] bg-cover bg-center relative flex items-center justify-around gap-10">
+    <main
+      style={{ backgroundImage: `url(${heroBg})` }}
+      className="max-w-screen min-h-[70vh] bg-cover bg-center relative flex items-center justify-around gap-10"
+    >
       <div>
         <img
           src={url}
