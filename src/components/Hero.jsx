@@ -19,9 +19,13 @@ const Hero = () => {
   const { name, url } = products[currentIndex] || {};
 
   return (
-    <main className="max-w-screen min-h-[70vh] bg-[url('hero-bg.png')] bg-cover bg-center relative flex items-center justify-around gap-10">
+    <main className="max-w-screen min-h-[70vh] bg-[url('heroBg.png')] bg-cover bg-center relative flex items-center justify-around gap-10">
       <div>
-        <img src={url} alt={name} className="max-w-100 rounded-3xl aspect-2/2"/>
+        <img
+          src={url}
+          alt={name}
+          className="max-w-100 rounded-3xl aspect-2/2"
+        />
       </div>
       <span className="text-7xl text-black font-semibold">{name}</span>
       <button
