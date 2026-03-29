@@ -1,0 +1,81 @@
+[
+  {
+    "company": {
+      "name": "M. C. Tools Pvt. Ltd.",
+      "established": 1993,
+      "tagline": "A Promise Of Efficiency And Quality......",
+      "directors": ["Mr. Anil Aggarwal", "Mr. Sandeep Kumar Aggarwal"],
+      "directors_icon": "https://catalog.wlimg.com/1/1371075/other-images/comp-info-img-14637.png",
+      "gst_no": "06AAGCM5238F1ZK",
+      "gst_icon": "https://c7.alamy.com/comp/2B3H4X6/icon-for-gst-exemption-2B3H4X6.jpg",
+      "nature_of_business": "Manufacturer, Exporter & Supplier",
+      "nature_of_icon": "https://catalog.wlimg.com/1/1371075/other-images/comp-info-img-14634.png",
+      "business_types": ["Manufacturer", "Exporter", "Supplier", "Retailer"],
+      "employees": 50,
+      "employees_icon": "https://images.unsplash.com/vector-1739887194777-831fac22b2d0?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8TnVtYmVyJTIwb2YlMjBFbXBsb3llZXN8ZW58MHx8MHx8fDA%3D",
+      "product_range": 20,
+      "product_icon": "https://catalog.wlimg.com/1/1371075/other-images/comp-info-img-14629.png",
+      "years_of_experience": 27,
+      "years_of_experience_icon": "https://plus.unsplash.com/premium_vector-1727955580501-accffc58bee2?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YnVpbGRpbmclMjBpY29ufGVufDB8fDB8fHww",
+      "manufacturing_units": 8,
+      "manufacturing_icons": "https://catalog.wlimg.com/1/1371075/other-images/comp-info-img-14632.png",
+      "countries_served": 18,
+      "countries_icon": "https://catalog.wlimg.com/1/1371075/other-images/comp-info-img-14631.png",
+      "markets_covered": ["Nepal", "Dubai", "Saudi Arabia", "Mauritius"],
+      "markets_icon": "https://images.unsplash.com/vector-1739803318362-58b111629ee8?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8c2hvcHxlbnwwfHwwfHx8MA%3D%3D",
+      "registered_as": "SSI Registered Unit with NSIC-CRISIL rating",
+      "units": [
+        {
+          "unit": 1,
+          "address": "N-12/A, Street No.9, Anand Parbat Industrial Area, New Delhi - 110005"
+        },
+        {
+          "unit": 2,
+          "address": "Plot No.1 (Freehold), Part-B, Bahadurgarh, Haryana - 124507"
+        }
+      ],
+      "contact": {
+        "mobile": ["+91-9310120523", "+91-9891552387"],
+        "phone": ["+91-011-28765760", "+91-011-28765761"],
+        "email": "mctools93@gmail.com",
+        "website": "https://www.mctools.in/"
+      },
+      "social_profiles": [
+        "https://www.exportersindia.com/m-c-tools/",
+        "https://www.indianyellowpages.com/bahadurgarh/m-c-tools-pvt-ltd-1371075/"
+      ],
+      "description": [
+        "M. C. Tools Pvt. Ltd. has aced in the business of manufacturing, exporting, and supplying Industrial Products. Keeping in mind the versatility of industrial needs, the company brings forth an assortment of Industrial Products like Tube mill roll, Fin Disc, Mill Shaft, Industrial Spacer, Flying Saw Cutter, Slitting Cutter, Separator Disc, Pipe Threading Chaser and so on. Fabricated from the finest grade raw materials, these Industrial Products are the perfect choice available in the markets. Our Industrial Products are preferred not only in India but, in international markets as well.",
+        "Quality work culture and timely supplies are some of the key factors that build up the base of our organization. Elaborating further, our adroit team of experts maintains a strict vigil on the entire production process thus, ensuring a flawless range is delivered to our valued clients. Supported by a wide business network, our company is rapidly expanding over the international arenas."
+      ]
+    },
+    "infrastructure": {
+      "stock_capacity_mt": 500,
+      "features": [
+        "In-house state-of-the-art technology",
+        "CNC controlled workstations for design",
+        "In-house Heat Treatment Plant (salt baths, electric tempering furnaces)",
+        "In-house quality control with inspections (Visual, Dimensional, Hardness Test, Spectro Analysis, Ultrasonic Test)",
+        "Latest machines and technologies including CNC machines"
+      ]
+    },
+    "clients": {
+      "client1": "Jindal",
+      "client1_img_url": "https://dyimg77.exportersindia.com/catalog-gallery/gallery_13024_20200724155716-small.jpg",
+      "client2": "APL Apollo",
+      "client2_img_url": "https://dyimg77.exportersindia.com/catalog-gallery/gallery_13025_20200724155725-small.jpg",
+      "client3": "Maharashtra Seamless Limited",
+      "client3_img_url": "https://dyimg77.exportersindia.com/catalog-gallery/gallery_13026_20200724155730-small.jpg",
+      "client4": "Star",
+      "client4_img_url": "https://dyimg77.exportersindia.com/catalog-gallery/gallery_13027_20200724155735-small.jpg",
+      "client5": "Nezone",
+      "client5_img_url": "https://dyimg77.exportersindia.com/catalog-gallery/gallery_13028_20200724155740-small.jpg",
+      "client6": "Suncity Sheets",
+      "client6_img_url": "https://dyimg77.exportersindia.com/catalog-gallery/gallery_13029_20200724155745-small.jpg",
+      "client7": "Goodluck",
+      "client7_img_url": "https://dyimg77.exportersindia.com/catalog-gallery/gallery_13030_20200724155749-small.jpg",
+      "client8": "Asian",
+      "client8_img_url": "https://dyimg77.exportersindia.com/catalog-gallery/gallery_13031_20200724155753-small.jpg"
+    }
+  }
+]
